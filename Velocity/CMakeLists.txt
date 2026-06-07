@@ -159,6 +159,7 @@ target_include_directories(VelocityNext
 target_link_libraries(VelocityNext
   PRIVATE
     Qt6::Core
+	Qt6::CorePrivate
     Qt6::Gui
     Qt6::Xml
     Qt6::Widgets  
